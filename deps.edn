@@ -1,0 +1,13 @@
+{
+ :deps {org.clojure/clojure {:mvn/version "1.10.1"}
+        instaparse {:mvn/version "1.4.10"}
+        org.clojure/math.combinatorics {:mvn/version "0.1.6"}
+        clojurewerkz/ogre {:mvn/version "3.4.7.0"}
+        org.apache.tinkerpop/tinkergraph-gremlin {:mvn/version "3.4.9"}}
+
+ :paths ["src"]
+
+ :aliases {:test {:extra-paths ["test"]
+                  :extra-deps {com.cognitect/test-runner {:git/url "https://github.com/cognitect-labs/test-runner.git"
+                                                          :sha "209b64504cb3bd3b99ecfec7937b358a879f55c1"}}
+                  :main-opts ["-m" "cognitect.test-runner"]}}}
