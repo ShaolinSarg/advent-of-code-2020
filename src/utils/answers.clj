@@ -9,7 +9,9 @@
             [days.day-05 :refer [day-5-part-1-answer
                                  day-5-part-2-answer]]
             [days.day-06 :refer [day-6-part-1-answer
-                                 day-6-part-2-answer]]))
+                                 day-6-part-2-answer]]
+            [days.day-07 :refer [day-7-part-1-answer
+                                 day-7-part-2-answer]]))
 
 
 (defn -main [& args]
@@ -33,4 +35,7 @@
   (println)
   (println (str "Day 6 part 1 [" (day-6-part-1-answer) "]"))
   (println (str "Day 6 part 2 [" (day-6-part-2-answer) "]"))
+  (println)
+  (println (str "Day 7 part 1 [" (day-7-part-1-answer) "]"))
+  (println (str "Day 7 part 2 [" (day-7-part-2-answer) "]"))
   (println))
