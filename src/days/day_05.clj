@@ -25,13 +25,13 @@
         col (chop-space col-instructions 8)]
     (+ col (* 8 row))))
 
-(defn day-05-part-1-answer []
+(defn day-5-part-1-answer []
   (->> boarding-passes
        (map split-rows-columns)
        (map find-seat-id)
        (apply max)))
 
-(defn day-05-part-2-answer []
+(defn day-5-part-2-answer []
   (let [ordered-cards (->> boarding-passes
                           (map split-rows-columns)
                           (map find-seat-id)
