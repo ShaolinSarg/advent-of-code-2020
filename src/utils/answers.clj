@@ -46,4 +46,7 @@
   (println)
   (println (str "Day 9 part 1 [" (day-9-part-1-answer) "]"))
   (println (str "Day 9 part 2 [" (day-9-part-2-answer) "]"))
+  (println)
+  (println (str "Day 10 part 1 [" (day-10-part-1-answer) "]"))
+  (println (str "Day 10 part 2 [" (day-10-part-2-answer) "]"))
   (println))

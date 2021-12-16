@@ -3,7 +3,9 @@
         instaparse {:mvn/version "1.4.10"}
         org.clojure/math.combinatorics {:mvn/version "0.1.6"}
         clojurewerkz/ogre {:mvn/version "3.4.7.0"}
-        org.apache.tinkerpop/tinkergraph-gremlin {:mvn/version "3.4.9"}}
+        org.apache.tinkerpop/tinkergraph-gremlin {:mvn/version "3.4.9"}
+        gorillalabs/neo4j-clj {:mvn/version "4.1.0"}
+        org.neo4j.test/neo4j-harness {:mvn/version "4.0.0"}}
 
  :paths ["src"]
 
